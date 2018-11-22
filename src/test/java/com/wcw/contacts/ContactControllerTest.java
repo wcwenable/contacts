@@ -36,7 +36,7 @@ public class ContactControllerTest {
     public void contactList() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/contact/all"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("abc"));
+                .andExpect(MockMvcResultMatchers.content().string("[{\"id\":1,\"name\":\"test2\",\"sex\":false,\"mobile\":\"13789321156\",\"email\":\"test2@qq.com\",\"addr\":\"test2add\"},{\"id\":2,\"name\":\"test3\",\"sex\":false,\"mobile\":\"13334321196\",\"email\":\"test3@163.com\",\"addr\":\"test3add\"},{\"id\":4,\"name\":\"强盗3\",\"sex\":true,\"mobile\":\"18585756515\",\"email\":\"wcw515@163.com\",\"addr\":\"贵州遵义\"}]"));
     }
 
     @Test

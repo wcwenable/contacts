@@ -1,9 +1,12 @@
-package com.wcw.contacts.mapper;
+package com.wcw.contacts.dao;
 
 import com.wcw.contacts.entity.Contact;
 
 import java.util.List;
 
+/**
+ * @author 王成伍
+ */
 public interface ContactMapper {
     int deleteByPrimaryKey(Integer id);
 

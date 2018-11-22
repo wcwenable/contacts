@@ -102,3 +102,75 @@
 2018-11-21 12:43:32.194 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
 2018-11-21 12:44:39.469 [Thread-4] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
 2018-11-21 12:44:39.474 [Thread-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-11-21 13:35:32.659 [restartedMain] INFO  com.wcw.contacts.ContactsApplication - Starting ContactsApplication on Wangchengwu with PID 15456 (D:\Users\djCTM\IdeaProjects\test\contacts\target\classes started by 点觉CTM in D:\Users\djCTM\IdeaProjects\test\contacts)
+2018-11-21 13:35:32.662 [restartedMain] INFO  com.wcw.contacts.ContactsApplication - No active profile set, falling back to default profiles: default
+2018-11-21 13:35:32.700 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-21 13:35:32.700 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-21 13:35:33.099 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dataService.mappers.*]' package. Please check your configuration.
+2018-11-21 13:35:33.775 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-11-21 13:35:33.784 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2018-11-21 13:35:33.788 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-21 13:35:33.788 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-21 13:35:33.794 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Users\AndroidSdk\platform-tools;D:\Users\AndroidSdk\tools;D:\Users\AndroidSdk\tools\bin;D:\Users\点觉CTM\AppData\Local\Programs\Python\Python37-32\Scripts\;D:\Users\点觉CTM\AppData\Local\Programs\Python\Python37-32\;D:\app\client32\djCTM\product\12.2.0\client_1\bin;D:\app\client\djCTM\product\12.2.0\client_2\bin;D:\app\client\djCTM\product\12.2.0\client_1\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;D:\360安全浏览器下载\ikvmbin-7.2.4630.5\ikvm-7.2.4630.5\bin;D:\Pro;ram Files (x86)\GitExtensions\;D:\Program Files (x86)\Git\cmd;D:\Program Files (x86)\Git\mingw32\bin;D:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\dotnet\;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\Go\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\点觉CTM\AppData\Local\Microsoft\WindowsApps;D:\Users\点觉CTM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\点觉CTM\AppData\Roaming\npm;C:\Users\点觉CTM\.dotnet\tools;D:\Program Files (x86)\Quartz.net;;.]
+2018-11-21 13:35:33.884 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-21 13:35:33.884 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1184 ms
+2018-11-21 13:35:33.919 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-21 13:35:33.920 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-11-21 13:35:33.923 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-21 13:35:33.923 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-21 13:35:33.923 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-21 13:35:33.923 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-21 13:35:33.924 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-21 13:35:34.008 [restartedMain] INFO  com.wcw.contacts.MyBatisConfiguration - load SpringBootVFS
+2018-11-21 13:35:34.332 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-21 13:35:34.528 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-11-21 13:35:34.557 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2018-11-21 13:35:34.565 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-21 13:35:34.580 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-11-21 13:35:34.583 [restartedMain] INFO  com.wcw.contacts.ContactsApplication - Started ContactsApplication in 2.358 seconds (JVM running for 4.176)
+2018-11-21 13:35:47.481 [http-nio-8888-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-21 13:35:47.481 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-21 13:35:47.486 [http-nio-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2018-11-21 13:35:47.639 [http-nio-8888-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-21 18:08:31.788 [restartedMain] INFO  com.wcw.contacts.ContactsApplication - Starting ContactsApplication on Wangchengwu with PID 16372 (D:\Users\djCTM\IdeaProjects\test\contacts\target\classes started by 点觉CTM in D:\Users\djCTM\IdeaProjects\test\contacts)
+2018-11-21 18:08:31.803 [restartedMain] INFO  com.wcw.contacts.ContactsApplication - No active profile set, falling back to default profiles: default
+2018-11-21 18:08:31.957 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-21 18:08:31.958 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-21 18:08:32.685 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dataService.mappers.*]' package. Please check your configuration.
+2018-11-21 18:08:34.230 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-11-21 18:08:34.293 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2018-11-21 18:08:34.318 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-21 18:08:34.318 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-21 18:08:34.337 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Users\AndroidSdk\platform-tools;D:\Users\AndroidSdk\tools;D:\Users\AndroidSdk\tools\bin;D:\Users\点觉CTM\AppData\Local\Programs\Python\Python37-32\Scripts\;D:\Users\点觉CTM\AppData\Local\Programs\Python\Python37-32\;D:\app\client32\djCTM\product\12.2.0\client_1\bin;D:\app\client\djCTM\product\12.2.0\client_2\bin;D:\app\client\djCTM\product\12.2.0\client_1\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;D:\360安全浏览器下载\ikvmbin-7.2.4630.5\ikvm-7.2.4630.5\bin;D:\Pro;ram Files (x86)\GitExtensions\;D:\Program Files (x86)\Git\cmd;D:\Program Files (x86)\Git\mingw32\bin;D:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\dotnet\;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\Go\bin;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin;C:\Program Files\Java\jdk1.8.0_191\bin;D:\Users\点觉CTM\AppData\Roaming\JetBrains\IntelliJ IDEA 2018.2.6\plugins\maven\lib\maven3\bin;C:\Users\点觉CTM\AppData\Local\Microsoft\WindowsApps;D:\Users\点觉CTM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\点觉CTM\AppData\Roaming\npm;C:\Users\点觉CTM\.dotnet\tools;D:\Program Files (x86)\Quartz.net;;.]
+2018-11-21 18:08:34.507 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-21 18:08:34.507 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2549 ms
+2018-11-21 18:08:34.584 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-21 18:08:34.585 [restartedMain] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-11-21 18:08:34.600 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-21 18:08:34.601 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-21 18:08:34.601 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-21 18:08:34.601 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-21 18:08:34.601 [restartedMain] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-11-21 18:08:34.755 [restartedMain] INFO  com.wcw.contacts.MyBatisConfiguration - load SpringBootVFS
+2018-11-21 18:08:35.336 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-21 18:08:35.682 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-11-21 18:08:35.718 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2018-11-21 18:08:35.727 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-21 18:08:35.748 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-11-21 18:08:35.751 [restartedMain] INFO  com.wcw.contacts.ContactsApplication - Started ContactsApplication in 5.345 seconds (JVM running for 7.68)
+2018-11-21 18:08:54.488 [http-nio-8888-exec-5] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-21 18:08:54.488 [http-nio-8888-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-21 18:08:54.506 [http-nio-8888-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2018-11-21 18:09:43.619 [http-nio-8888-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-11-21 19:58:22.990 [main] INFO  com.wcw.contacts.ContactControllerTest - Starting ContactControllerTest on Wangchengwu with PID 14912 (started by 点觉CTM in D:\Users\djCTM\IdeaProjects\contacts)
+2018-11-21 19:58:22.991 [main] INFO  com.wcw.contacts.ContactControllerTest - No active profile set, falling back to default profiles: default
+2018-11-21 19:58:24.025 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.dataService.mappers.*]' package. Please check your configuration.
+2018-11-21 19:58:25.104 [main] INFO  com.wcw.contacts.MyBatisConfiguration - load SpringBootVFS
+2018-11-21 19:58:26.157 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-21 19:58:26.771 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2018-11-21 19:58:26.771 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2018-11-21 19:58:26.784 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 13 ms
+2018-11-21 19:58:26.817 [main] INFO  com.wcw.contacts.ContactControllerTest - Started ContactControllerTest in 5.13 seconds (JVM running for 7.92)
+2018-11-21 19:58:27.140 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2018-11-21 19:58:27.140 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2018-11-21 19:58:27.142 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms

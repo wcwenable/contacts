@@ -1,7 +1,7 @@
 package com.wcw.contacts.service;
 
 import com.wcw.contacts.entity.Contact;
-import com.wcw.contacts.mapper.ContactMapper;
+import com.wcw.contacts.dao.ContactMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

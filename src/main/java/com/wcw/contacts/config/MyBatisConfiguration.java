@@ -1,4 +1,4 @@
-package com.wcw.contacts;
+package com.wcw.contacts.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.io.VFS;
@@ -23,7 +23,6 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * @author 点觉CTM
  * @author 王成伍
  */
 @Configuration
